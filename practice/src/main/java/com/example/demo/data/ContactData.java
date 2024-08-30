@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class ContactData {
-	private String lastName;
-	private String firstName;
+    private String lastName;
+    private String firstName;
     private String email;
     private String phone;
     private String zipCode;
