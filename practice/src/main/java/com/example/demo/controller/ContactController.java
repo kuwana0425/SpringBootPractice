@@ -13,7 +13,6 @@ public class ContactController {
     public ModelAndView contact(@ModelAttribute ContactData contactData, ModelAndView mv) {
 
         mv.setViewName("confirmation");
-
         mv.addObject("lastName", contactData.getLastName());
         mv.addObject("firstName", contactData.getFirstName());
         mv.addObject("email", contactData.getEmail());
