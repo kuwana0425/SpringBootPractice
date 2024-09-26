@@ -1,5 +1,4 @@
 package com.example.demo.form;
-
 import java.io.Serializable;
 
 import jakarta.validation.constraints.Email;
